@@ -29,8 +29,11 @@ footer{
     font-size: 9px;
     background-color: #666666;
     color:white;
-    height: 50px;
-    border-top: 8px solid #4aaaa5;
+    height: 40px;
+    border-top: 5px solid #4aaaa5;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
 
 
 }
@@ -50,4 +53,8 @@ footer{
 h1{
     display: flex;
     justify-content: flex-end;
+}
+
+.main-area{
+
 }
