@@ -45,6 +45,7 @@ body{
     background-image: url("../Images/hotel-wallpaper.png") ;
     display: flex;
     flex-direction: column;
+    margin: 0;
 
 }
 
@@ -71,7 +72,8 @@ img{
 
 .main-area{
     border: 1px solid #dddddd;
-    width: 500px;
+    width: 960px;
+    min-height: 650px;
     background-color: #ffffff;
     margin: 50px auto;
     font-size: 10px;
@@ -82,16 +84,18 @@ img{
 
 .footer{
     background-color: #666666;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 8px;
-    border-top: 8px solid #4aaaa5;
-    height: 30px;
+    
     flex-shrink: 0;
 
 }
 
 .copyright{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8px;
+    border-top: 8px solid #4aaaa5;
+    height: 30px;
     flex: 1 0 auto;
-}
+    background-color: #666666;
+}   
 
