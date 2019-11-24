@@ -43,7 +43,8 @@ a{
 
 body{
     background-image: url("../Images/hotel-wallpaper.png") ;
-    
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -86,6 +87,11 @@ img{
     font-size: 8px;
     border-top: 8px solid #4aaaa5;
     height: 30px;
-    text-align: unset;
+    flex-shrink: 0;
 
 }
+
+.copyright{
+    flex: 1 0 auto;
+}
+
