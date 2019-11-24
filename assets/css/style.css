@@ -97,5 +97,17 @@ img{
     height: 30px;
     flex: 1 0 auto;
     background-color: #666666;
-}   
+}  
+
+.contact-form{
+    color: #777777;
+    font-size: 12px;
+    width: 960px;
+    
+
+}
+
+br{
+    color: #cccccc;
+}
 
