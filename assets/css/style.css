@@ -1,11 +1,46 @@
-body{
-    background-color: #dddddd;
+.head{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #cccccc;
+}
+.name{
+    display: flex;
+    align-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border-right: 1px solid #cccccc;
+    
+
 }
 
-.about-me{
-    color: #4aaaa5;
-    border-bottom-color: #666666;
+.related-links{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    padding-right: 20px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+p{
+    padding: 0px 20px 20px 20px;
+}
+
+a{
+    color: #666666;
+    text-decoration: none;
+
+}
+
+body{
+    background-image: url("../Images/hotel-wallpaper.png") ;
+    
 
 }
 
@@ -15,51 +50,52 @@ body{
 
 
 }
+
+.about-me{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #dddddd;
+    border-spacing: 10px;
+    color: #4aaaa5;
+}
+
 img{
     height: 80px;
     flex-basis: 30px;
-}
-
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #666666;
-}
-
-footer{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 9px;
-    background-color: #666666;
-    color:white;
-    height: 40px;
-    border-top: 5px solid #4aaaa5;
-    display: flex;
-    justify-content: flex-start;
-    align-content: flex-end;
-
-
-}
-
-.marielenac{
-    display: flex;
-    justify-content: flex-start;
-    
-}
-
-.links{
-    display: flex;
-    justify-content: flex-end;
-    
-}
-
-h1{
-    display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
 }
 
 .main-area{
     border: 1px solid #dddddd;
     width: 500px;
-    height: fit-content;
-    background-color: whitesmoke;
+    background-color: #ffffff;
+    margin: 50px auto;
+    font-size: 10px;
+    line-height: 15px;
+    text-indent: 30px;
+
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+
+}
+
+.footer{
+    background-color: #666666;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8px;
+    border-top: 2px solid #4aaaa5;
+    height: 30px;
+    text-emphasis-position: bottom;
+
+
+}
+
+footer{
+    
 
 }
