@@ -76,11 +76,22 @@ img{
     min-height: 650px;
     background-color: #ffffff;
     margin: 50px auto;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 15px;
     text-indent: 30px;
 
 }
+
+/*
+.main-area-contact{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #777777;
+
+}
+
+*/
 
 .footer{
     background-color: #666666;
@@ -102,12 +113,16 @@ img{
 .contact-form{
     color: #777777;
     font-size: 12px;
-    width: 960px;
+    display: flex;
+    justify-content: row;
+}
+
+.message-field{
+    display: flex; 
+    justify-content: flex-start;
+    height: 200px;
     
-
+    
 }
 
-br{
-    color: #cccccc;
-}
 
