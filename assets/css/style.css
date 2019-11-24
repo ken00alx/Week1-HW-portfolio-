@@ -30,6 +30,9 @@
 }
 p{
     padding: 0px 20px 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 2;
 }
 
 a{
@@ -59,7 +62,7 @@ body{
 }
 
 img{
-    height: 80px;
+    height: 200px;
     flex-basis: 30px;
     align-items: center;
     padding-top: 20px;
@@ -76,12 +79,6 @@ img{
 
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-
-}
-
 .footer{
     background-color: #666666;
     color: white;
@@ -90,11 +87,5 @@ p{
     border-top: 2px solid #4aaaa5;
     height: 30px;
     text-emphasis-position: bottom;
-
-
-}
-
-footer{
-    
 
 }
