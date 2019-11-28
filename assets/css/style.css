@@ -74,12 +74,14 @@ img{
 
 .main-area{
     border: 1px solid #dddddd;
+    width: 960px;
     width: 100%;
     min-height: 650px;
     background-color: #ffffff;
     margin: 50px auto;
     font-size: 12px;
     line-height: 15px;
+    padding: 30px 30px;
     
 
 }
@@ -141,4 +143,43 @@ textarea{
 
 }
 
+.project-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+  }
 
+  .project1 {
+    position: relative;
+    padding: 20px 20px;
+    border: 1px solid #cccccc;
+    margin: 10px;
+  }
+
+  .project2 {
+    position: relative;
+    padding: 20px 20px;
+    border: 1px solid #cccccc;
+    margin: 10px;
+  }
+
+  .container {
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  
+  .text-block {
+    position: relative;
+    background-color: #4aaaa5;
+    color: white;
+    width: 100%;
+    bottom: 20px;
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
