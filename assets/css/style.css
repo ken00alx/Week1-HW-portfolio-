@@ -74,7 +74,7 @@ img{
 
 .main-area{
     border: 1px solid #dddddd;
-    width: 960px;
+    max-width: 960px;
     width: 100%;
     min-height: 650px;
     background-color: #ffffff;
