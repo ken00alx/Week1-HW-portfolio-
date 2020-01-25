@@ -1,4 +1,5 @@
 # week1-HW-portfolio
+[Non-Responsive Portfolio](https://malicemarie.github.io/Week1-HW-portfolio/)
 Week 1, Assignment 1, Portfolio
 
 # Unit 01 HTML, CSS, and Git Homework: Portfolio
